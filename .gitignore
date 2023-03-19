@@ -33,6 +33,6 @@ build/
 .vscode/
 
 
-# Ignore spring-fire-crud-sdk.json
-spring-fire-crud-sdk.json
+# Ignore serviceAccountKey.json file
+/src/main/resources/serviceAccountKey.json
 
