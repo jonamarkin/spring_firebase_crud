@@ -7,4 +7,16 @@ import com.atomarkin.firebasecrud.model.User;public class FirebaseCrudService {
         return "Create";
     }
 
+    public String read(String documentId) {
+        return "Read";
+    }
+
+    public String update(User user) {
+        return "Update";
+    }
+
+    public String delete(String documentId) {
+        return "Delete";
+    }
+
 }
