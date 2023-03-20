@@ -33,4 +33,9 @@ public class FirebaseCrudController {
   public ResponseEntity<?> delete(@RequestParam String documentId) throws ExecutionException, InterruptedException {
     return ResponseEntity.ok(this.firebaseCrudService.delete(documentId));
   }
+
+  @GetMapping("/readAll")
+    public ResponseEntity<?> readAll() throws ExecutionException, InterruptedException {
+        return ResponseEntity.ok(this.firebaseCrudService.readAll());
+    }
 }
